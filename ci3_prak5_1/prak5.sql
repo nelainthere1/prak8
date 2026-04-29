@@ -1,0 +1,10 @@
+
+CREATE DATABASE prak5;
+USE prak5;
+
+CREATE TABLE forum (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100),
+    pesan TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
